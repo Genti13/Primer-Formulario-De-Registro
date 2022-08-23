@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign-in</title>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <h1>Registrarse</h1>
+            <div class="nom_ape">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" required>
+                </div>
+
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" required>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div>
+                    <label for="phone">Telefono</label>
+                    <input type="number" id="phone" required placeholder="+54 011 XXXX-XXXX">
+                </div>
+
+                <div>
+                    <label for="mail">Mail</label>
+                    <input type="email" id="mail" required placeholder="example@gmail.com">
+                </div>
+            </div>
+
+            <div class="message">
+                <label for="msg">Mensaje</label>
+                <textarea id="msg"></textarea>
+            </div>
+
+            <fieldset class="radio-section">
+                <legend>Forma de contacto preferida.</legend>
+                <label for="radio-mail">
+                    <input type="radio" name="contact" id="radio-mail" checked="checked"> Mail
+                </label>
+
+                <label for="radio-phone">
+                    <input type="radio" name="contact" id="radio-phone"> Telefono
+                </label>
+
+                <label for="radio-wp">
+                    <input type="radio" name="contact" id="radio-wp"> WhatsApp
+                </label>
+            </fieldset>
+
+            <div class="select-section">
+                <p>Horario de trabajo preferido</p>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </div>
+
+            <div class="check-section">
+                <label>
+                    <input type="checkbox" name="check"> Me gustaria recibir correos de esta pagina.
+                </label>
+            </div>
+
+
+            <input type="submit" class="button">
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>

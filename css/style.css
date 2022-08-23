@@ -1,0 +1,86 @@
+h1{
+    padding-left: 50px;
+}
+
+form {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+p{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+form input {
+    display: block;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    padding: 10px 10px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.nom_ape {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.nom_ape div {
+    width: 48%;
+}
+
+.nom_ape div input, .contact input, .message textarea, .check-section{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact, .message, .radio-section, .check-section, .select-section{
+    margin: auto;
+    width: 75%;  
+}
+
+.message textarea {
+    min-height: 126px;
+    max-height: 252px ;
+    resize: vertical;
+    border-radius: 6px;
+}
+
+.button{
+    margin: auto;
+    width: 75%;
+}
+
+.radio-section input, .check-section input{
+    display: inline-block;
+    margin: auto;
+}
+
+.check-section{
+    padding: 10px 0px;
+}
+
+.button{
+    background-color: orange;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s background;
+}
+
+.button:hover{
+    background-color: darkorange;
+}
